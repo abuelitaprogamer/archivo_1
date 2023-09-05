@@ -6,6 +6,6 @@ def pulgadas_a_pies(pulgadas):
     return pulgadas / 12
 
 if __name__ =="__main__":
-    metros=int(input("ingrese la cantidad en metros: "))
+    metros=float(input("ingrese la cantidad en metros: "))
     pulgadas= metros_a_pulgadas(metros)
     print(f"{metros} metros equivale a {pulgadas:.2f} pulgadas")
